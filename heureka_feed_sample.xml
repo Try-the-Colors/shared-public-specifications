@@ -31,9 +31,7 @@
       <PARAM_NAME>HEX kód farby</PARAM_NAME>
       <VAL>#F2DCC4</VAL>
     </PARAM>
-
-    <!-- Voliteľné, odporúčané: Z tohto berieme poslednú kategóriu a zobrazujeme -->
-    <CATEGORYTEXT><![CDATA[Heureka.sk | Stavebniny | Farby a laky | Interiérové farby]]></CATEGORYTEXT>
+    
 
     <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
     <PARAM>
