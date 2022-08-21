@@ -45,16 +45,22 @@
       <VAL>3.3 kg</VAL>
     </PARAM>
 
-    <!-- Voliteľné, odporúčané -->
+    <!-- Voliteľné, odporúčané: Z týchto 4 parametrov rozdelíme produkty do kategórií, aby si zákazník mohol filtrovať podľa toho, čo chce -->
     <PARAM>
-      <PARAM_NAME>Typ farby</PARAM_NAME>
-      <VAL>matná</VAL>
+      <PARAM_NAME>Typ farby podľa povrchu</PARAM_NAME>
+      <VAL>farba na drevo</VAL>
     </PARAM>
-
-    <!-- Voliteľné, odporúčané -->
+    <PARAM>
+      <PARAM_NAME>vzhľad farby</PARAM_NAME>
+      <VAL>matný</VAL>
+    </PARAM>    
     <PARAM>
       <PARAM_NAME>Umývateľná</PARAM_NAME>
       <VAL>áno</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Použitie farby</PARAM_NAME>
+      <VAL>na strechu</VAL>
     </PARAM>
 
     <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
