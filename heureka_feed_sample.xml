@@ -34,11 +34,15 @@
     
     <!-- Voliteľné, odporúčané: Z týchto nasledujúcich parametrov rozdelíme produkty do kategórií, aby si zákazník mohol filtrovať podľa toho, čo chce -->
     <PARAM>
+      <PARAM_NAME>Typ farby</PARAM_NAME>
+      <VAL>akrylátová</VAL>
+    </PARAM>
+    <PARAM>
       <PARAM_NAME>Typ farby podľa povrchu</PARAM_NAME>
       <VAL>farba na stenu</VAL>
     </PARAM>
     <PARAM>
-      <PARAM_NAME>vzhľad farby</PARAM_NAME>
+      <PARAM_NAME>Vzhľad farby</PARAM_NAME>
       <VAL>matný</VAL>
     </PARAM>    
     <PARAM>
