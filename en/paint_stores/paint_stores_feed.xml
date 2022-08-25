@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PAINT_STORES>
+  <PAINT_STORE>
+    <!-- Mandatory  -->
+    <NAME>AB - stav, s.r.o.</NAME>
+
+    <!-- Mandatory  -->
+    <LATITUDE>48.238139</LATITUDE>
+
+    <!-- Mandatory  -->
+    <LONGITUDE>18.1800574</LONGITUDE>
+
+
+
+    <!-- Optional  -->
+    <ADDRESS>Šafárikova 112</ADDRESS>
+
+    <!-- Optional  -->
+    <CITY>Rožňava</CITY>
+
+    <!-- Optional  -->
+    <ZIP_CODE>Rožňava</ZIP_CODE>
+
+    <!-- Optional, can be multiple entries  -->
+    <PHONE_NUMBER>037/658185</PHONE_NUMBER>
+    <PHONE_NUMBER>038/847250</PHONE_NUMBER>
+
+    <!-- Optional, can be multiple entries  -->
+    <EMAIL>ab-stav@ab-stav.sk</EMAIL>
+
+    <!-- Optional, can be multiple entries  -->
+    <WEBSITE>ab-stav@ab-stav.sk</WEBSITE>
+  </PAINT_STORE>
+</PAINT_STORES>

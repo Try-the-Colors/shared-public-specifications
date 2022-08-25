@@ -1,6 +1,5 @@
-# Shared public specifications
-Špecifikácia použitia vašich produktových feedov do appky na vizualizáciu farieb.
+# Paint stores feed specification
 
-Odporúčam pridávať aj popísané voliteľné parametre. Váš zákazník si potom jednoduchšie vyberie produkt a budú lepšie konverzie.
+The specification of the paint stores feed that we need to be able to display your paint stores in our application.
 
-`Param` tagy budú potom viditeľné aj priamo na vašej Heureke, čiže vašim zákazníkom sa budú lepšie aj tam filtrovať produkty.
+If you have an already created product feed in a different specification, get in touch and we can take a look at it.
