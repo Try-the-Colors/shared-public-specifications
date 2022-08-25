@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SHOP>
   <SHOPITEM>
+    <!-- Povinné: jedinečný identifikátor jedného shopItemu  -->
     <ITEM_ID>35083</ITEM_ID>
-    <PRODUCTNAME>Dulux Colours of the World, Púštna cesta 2,5l</PRODUCTNAME>
-    <PRODUCT>Dulux Colours of the World, Púštna cesta 2,5l</PRODUCT>
-    <DESCRIPTION>Farba Colours of the world púštna cesta je kvalitná disperzná umývateľná farba s matným efektom určená na interiérové, dekoračné a ochranné nátery stien a stropov. Farba je ľahko roztierateľná a pri nízkej spotrebe umožňuje zachovať veľmi dobré krytie. Farba je paropriepustná, umožňuje dýchanie stien. Pri nanášaní nesteká. Odtiene boli vybrané poprednými dizajnérmi, reflektujú posledné módne trendy a zároveň rešpektujú jednoduchú vzájomnú kombinovateľnosť. Povrch musí byť čistý, suchý a vyzretý. Najlepší výsledok nanášania dosiahnete použitím valčeka Dulux alebo valčeka s krátkym vlasom o dĺžke 10-18mm. Schnutie farby je 2 až 4 hodiny v závislosti na okolitej teplote a vlhkosti vzduchu.</DESCRIPTION>
-    <URL>https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
-    <IMGURL>https://www.farby.sk/cache/100x114/dulux-colours-of-the-world-pustna-cesta-25lt-1.jpg</IMGURL>
-    <MANUFACTURER>Dulux</MANUFACTURER>
-    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT> 
-
 
     <!-- Povinné: podľa tohto zoskupujeme jednotlivé varianty produktov do jedného -->
     <ITEMGROUP_ID>EF789</ITEMGROUP_ID>
@@ -31,6 +24,21 @@
       <PARAM_NAME>HEX kód farby</PARAM_NAME>
       <VAL>#F2DCC4</VAL>
     </PARAM>
+
+    <!-- Povinné: link kde sa dá produkt v danej variante objednať -->
+    <URL>https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
+
+
+
+
+    <!-- Voliteľné, odporúčané: dodatočný kód špecifický pre dodávateľa pre farebný variant. Zobrazí sa vedľa názvu farebného odtieňu -->
+    <PARAM>
+      <PARAM_NAME>Color variant code</PARAM_NAME>
+      <VAL>F34</VAL>
+    </PARAM>
+
+    <!-- Voliteľné, odporúčané: z tohoto berieme obrázok produktu -->
+    <IMGURL>https://www.farby.sk/cache/100x114/dulux-colours-of-the-world-pustna-cesta-25lt-1.jpg</IMGURL>
     
     <!-- Voliteľné, odporúčané: Z týchto nasledujúcich parametrov rozdelíme produkty do kategórií, aby si zákazník mohol filtrovať podľa toho, čo chce -->
     <PARAM>
@@ -58,6 +66,10 @@
       <VAL>do kúpelne</VAL>
     </PARAM>    
 
+
+    <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
+    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT> 
+
     <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
     <PARAM>
       <PARAM_NAME>Objem balenia</PARAM_NAME>
@@ -69,8 +81,6 @@
       <PARAM_NAME>Hmotnosť balenia</PARAM_NAME>
       <VAL>3.3 kg</VAL>
     </PARAM>
-
-
 
     <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
     <PARAM>
@@ -90,5 +100,7 @@
       <VAL>14 m2/l</VAL>
     </PARAM>
 
+    <!-- Voliteľné, odporúčané: Do budúcna budeme možno aj toto zobrazovať -->
+    <MANUFACTURER>Dulux</MANUFACTURER>
   </SHOPITEM>
 </SHOP>

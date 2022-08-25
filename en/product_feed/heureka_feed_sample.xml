@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+  <SHOPITEM>
+    <!-- Mandatory: unique identifier of one shopItem  -->
+    <ITEM_ID>35083</ITEM_ID>
+
+    <!-- Mandatory: by this, we groups individual product variants into one -->
+    <ITEMGROUP_ID>EF789</ITEMGROUP_ID>
+
+    <!-- Mandatory: the name of the product that we display in the product list -->
+    <PARAM>
+      <PARAM_NAME>Product name without variants</PARAM_NAME>
+      <VAL>Dulux Colours of the World</VAL>
+    </PARAM>
+
+    <!-- Mandatory: the name of the color shade that we display in the swatch -->
+    <PARAM>
+      <PARAM_NAME>Color variant name</PARAM_NAME>
+      <VAL>Calming blue</VAL>
+    </PARAM>
+
+    <!-- Mandatory: the color itself that will be used for visualization-->
+    <PARAM>
+      <PARAM_NAME>HEX color code</PARAM_NAME>
+      <VAL>#F2DCC4</VAL>
+    </PARAM>
+
+    <!-- Mandatory: link where the product in the given variant can be ordered -->
+    <URL>https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
+
+
+
+
+    <!-- Optional, recommended: additional vendor-specific code for the color variant. It will be display alongside the Color variant name -->
+    <PARAM>
+      <PARAM_NAME>Color variant code</PARAM_NAME>
+      <VAL>F34</VAL>
+    </PARAM>
+
+    <!-- Optional, recommended: we take the product image from it -->
+    <IMGURL>https://www.farby.sk/cache/100x114/dulux-colours-of-the-world-pustna-cesta-25lt-1.jpg</IMGURL>
+    
+    <!-- Optional, recommended: From the following parameters, we will divide the products into categories so that the customer can filter according to what they want -->
+    <PARAM>
+      <PARAM_NAME>Paint type</PARAM_NAME>
+      <VAL>acrylic</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Paint type by surface</PARAM_NAME>
+      <VAL>wall paint</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Paint appearance</PARAM_NAME>
+      <VAL>matte</VAL>
+    </PARAM>    
+    <PARAM>
+      <PARAM_NAME>Washable</PARAM_NAME>
+      <VAL>yes</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Use of paint</PARAM_NAME>
+      <VAL>kitchen</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Use of paint</PARAM_NAME>
+      <VAL>bathroom</VAL>
+    </PARAM>
+
+
+    <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
+    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT> 
+
+    <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
+    <PARAM>
+      <PARAM_NAME>Package volume</PARAM_NAME>
+      <VAL>2.5 l</VAL>
+    </PARAM>
+
+    <!-- Optional, recommended: From this we calculate the approximate price per m2 if the package volume is missing -->
+    <PARAM>
+      <PARAM_NAME>Package weight</PARAM_NAME>
+      <VAL>3.3 kg</VAL>
+    </PARAM>
+
+    <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
+    <PARAM>
+      <PARAM_NAME>Recommended number of </PARAM_NAME>
+      <VAL>2</VAL>
+    </PARAM>
+
+    <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
+    <PARAM>
+      <PARAM_NAME>Minimum indicative yield in one layer</PARAM_NAME>
+      <VAL>10 m2/l</VAL>
+    </PARAM>
+
+    <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
+    <PARAM>
+      <PARAM_NAME>Maximum orientation yield in one layer</PARAM_NAME>
+      <VAL>14 m2/l</VAL>
+    </PARAM>
+
+    <!-- Optional, recommended: We may also display this in the future -->
+    <MANUFACTURER>Dulux</MANUFACTURER>
+  </SHOPITEM>
+</SHOP>
