@@ -26,12 +26,23 @@
     </PARAM>
 
     <!-- Povinné: link kde sa dá produkt v danej variante objednať -->
-    <URL>https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
+    <URL>
+      https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
+
+    <!-- Mandatory: the name of the color shade that we display in the swatch -->
+    <PARAM>
+      <PARAM_NAME>Short description</PARAM_NAME>
+      <VAL>Farba Colours of the world púštna cesta je kvalitná disperzná umývateľná farba s matným
+        efektom určená na interiérové, dekoračné a ochranné nátery stien a stropov. Farba je ľahko
+        roztierateľná a pri nízkej spotrebe umožňuje zachovať veľmi dobré krytie. Farba je
+        paropriepustná, umožňuje dýchanie stien. Schnutie farby je 2 až 4 hodiny v závislosti na
+        okolitej teplote a vlhkosti vzduchu.
+      </VAL>
+    </PARAM>
 
 
-
-
-    <!-- Voliteľné, odporúčané: dodatočný kód špecifický pre dodávateľa pre farebný variant. Zobrazí sa vedľa názvu farebného odtieňu -->
+    <!-- Voliteľné, odporúčané: dodatočný kód špecifický pre dodávateľa pre farebný variant. Zobrazí
+    sa vedľa názvu farebného odtieňu -->
     <PARAM>
       <PARAM_NAME>Color variant code</PARAM_NAME>
       <VAL>F34</VAL>
@@ -39,8 +50,9 @@
 
     <!-- Voliteľné, odporúčané: z tohoto berieme obrázok produktu -->
     <IMGURL>https://www.farby.sk/cache/100x114/dulux-colours-of-the-world-pustna-cesta-25lt-1.jpg</IMGURL>
-    
-    <!-- Voliteľné, odporúčané: Z týchto nasledujúcich parametrov rozdelíme produkty do kategórií, aby si zákazník mohol filtrovať podľa toho, čo chce -->
+
+    <!-- Voliteľné, odporúčané: Z týchto nasledujúcich parametrov rozdelíme produkty do kategórií,
+    aby si zákazník mohol filtrovať podľa toho, čo chce -->
     <PARAM>
       <PARAM_NAME>Typ farby</PARAM_NAME>
       <VAL>akrylátová</VAL>
@@ -52,7 +64,7 @@
     <PARAM>
       <PARAM_NAME>Vzhľad farby</PARAM_NAME>
       <VAL>matný</VAL>
-    </PARAM>    
+    </PARAM>
     <PARAM>
       <PARAM_NAME>Umývateľná</PARAM_NAME>
       <VAL>áno</VAL>
@@ -64,11 +76,11 @@
     <PARAM>
       <PARAM_NAME>Použitie farby</PARAM_NAME>
       <VAL>do kúpelne</VAL>
-    </PARAM>    
+    </PARAM>
 
 
     <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
-    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT> 
+    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT>
 
     <!-- Voliteľné, odporúčané: Z tohto počítame orientačnú cenu za m2 -->
     <PARAM>

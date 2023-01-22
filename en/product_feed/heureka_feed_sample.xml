@@ -26,12 +26,22 @@
     </PARAM>
 
     <!-- Mandatory: link where the product in the given variant can be ordered -->
-    <URL>https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
+    <URL>
+      https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
+
+    <!-- Mandatory: the name of the color shade that we display in the swatch -->
+    <PARAM>
+      <PARAM_NAME>Short description</PARAM_NAME>
+      <VAL>The Colors of the world desert path paint is a high-quality dispersion washable paint
+        with a matte effect intended for interior, decorative and protective coatings of walls and
+        ceilings. The paint is easy to spread and, with low consumption, allows you to maintain very
+        good coverage. The paint is vapor permeable, allowing the walls to breathe. The paint dries
+        in 2 to 4 hours, depending on the ambient temperature and air humidity.</VAL>
+    </PARAM>
 
 
-
-
-    <!-- Optional, recommended: additional vendor-specific code for the color variant. It will be display alongside the Color variant name -->
+    <!-- Optional, recommended: additional vendor-specific code for the color variant. It will be
+    display alongside the Color variant name -->
     <PARAM>
       <PARAM_NAME>Color variant code</PARAM_NAME>
       <VAL>F34</VAL>
@@ -39,8 +49,9 @@
 
     <!-- Optional, recommended: we take the product image from it -->
     <IMGURL>https://www.farby.sk/cache/100x114/dulux-colours-of-the-world-pustna-cesta-25lt-1.jpg</IMGURL>
-    
-    <!-- Optional, recommended: From the following parameters, we will divide the products into categories so that the customer can filter according to what they want -->
+
+    <!-- Optional, recommended: From the following parameters, we will divide the products into
+    categories so that the customer can filter according to what they want -->
     <PARAM>
       <PARAM_NAME>Paint type</PARAM_NAME>
       <VAL>acrylic</VAL>
@@ -52,7 +63,7 @@
     <PARAM>
       <PARAM_NAME>Paint appearance</PARAM_NAME>
       <VAL>matte</VAL>
-    </PARAM>    
+    </PARAM>
     <PARAM>
       <PARAM_NAME>Washable</PARAM_NAME>
       <VAL>yes</VAL>
@@ -68,7 +79,7 @@
 
 
     <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
-    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT> 
+    <PRICE_VAT><![CDATA[20,19]]></PRICE_VAT>
 
     <!-- Optional, recommended: From this we calculate the indicative price per m2 -->
     <PARAM>
@@ -76,7 +87,8 @@
       <VAL>2.5 l</VAL>
     </PARAM>
 
-    <!-- Optional, recommended: From this we calculate the approximate price per m2 if the package volume is missing -->
+    <!-- Optional, recommended: From this we calculate the approximate price per m2 if the package
+    volume is missing -->
     <PARAM>
       <PARAM_NAME>Package weight</PARAM_NAME>
       <VAL>3.3 kg</VAL>
