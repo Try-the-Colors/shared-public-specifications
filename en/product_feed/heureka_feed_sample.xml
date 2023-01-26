@@ -29,7 +29,7 @@
     <URL>
       https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
 
-    <!-- Mandatory: the name of the color shade that we display in the swatch -->
+    <!-- Optional, recommended: short description of this produt that will be displayed in products list -->
     <PARAM>
       <PARAM_NAME>Short description</PARAM_NAME>
       <VAL>The Colors of the world desert path paint is a high-quality dispersion washable paint
