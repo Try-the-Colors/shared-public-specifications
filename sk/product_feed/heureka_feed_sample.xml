@@ -29,7 +29,7 @@
     <URL>
       https://www.farby.sk/161280/dulux-colours-of-the-world-pustna-cesta-25l?utm_source=heureka&utm_medium=cpc</URL>
 
-    <!-- Mandatory: the name of the color shade that we display in the swatch -->
+    <!-- Voliteľné, odporúčané: krátky popis produktu, ktorý bude zobrazený v zozname produktov -->
     <PARAM>
       <PARAM_NAME>Short description</PARAM_NAME>
       <VAL>Farba Colours of the world púštna cesta je kvalitná disperzná umývateľná farba s matným
