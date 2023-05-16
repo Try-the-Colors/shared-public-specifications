@@ -1,0 +1,63 @@
+[
+	{
+		"id": "allProductCategories",
+		"allProductCategories": [
+			{
+        // Povinné
+				"id": "interior_paints",
+        // Voliteľné, odporúčané: Ikonka kategórie. Ikonky sa dajú hľadať tuto https://fonts.google.com/icons 
+        // Treba ale treba skontrolovať, že sú dostupné aj tu, a odtiaľ zobrať ID-čko: https://api.flutter.dev/flutter/material/Icons-class.html
+				"materialIcon": "format_paint_outlined", 
+        // Povinné
+        "localizedTexts": [
+					{
+						"lang": "sk",
+						"text": "Interiérové farby"
+					}
+				]
+			},
+			{
+				"id": "washable_paints",
+				"materialIcon": "water_drop_outlined",
+				"localizedTexts": [
+					{
+						"lang": "sk",
+						"text": "Umývateľné farby"
+					}
+				]
+			},
+			{
+				"id": "metal_paints",
+				"materialIcon": "fence_outlined",
+				"localizedTexts": [
+					{
+						"lang": "sk",
+						"text": "Farby na kov"
+					}
+				]
+			},
+			{
+				"id": "wood_paints",
+				"materialIcon": "cabin_outlined",
+				"localizedTexts": [
+					{
+						"lang": "sk",
+						"text": "Farby na drevo"
+					}
+				]
+			},
+			{
+				"id": "facade_paints",
+				"materialIcon": "gite_outlined",
+				"localizedTexts": [
+					{
+						"lang": "sk",
+						"text": "Farby na fasádu"
+					}
+				]
+			},
+      // ...
+		]
+	}
+]
+

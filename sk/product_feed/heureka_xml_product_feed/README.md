@@ -1,4 +1,4 @@
-# Špecifikácia produktového feedu
+# Špecifikácia XML produktového feedu
 
 Špecifikácia produktového feedu, ktorý potrebujeme aby sme mohli zobraziť vaše farby v našej aplikácii.
 Vychádza zo špecifikácie pre Heureku, a je s ňou plne kompatibilná. Čiže nemusíte vytvárať nový feed.
