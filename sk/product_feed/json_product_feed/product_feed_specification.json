@@ -54,8 +54,9 @@
     // Povinné
     "colorVariants": [
         {
-          // Povinné: ideálne keby sa toto ID-čko príliš často nemení. Užívateľ by po uložení svojho 
-          // projektu potom prišiel o prepojenie na túto variantu produktu. (case-sensitive)
+          // Povinné: ID samotnej farebnej varianty, unikátne naprieč všetkými farebnými variantami. 
+          // Ideálne keby sa toto ID-čko príliš často nemení. Užívateľ by po uložení svojho projektu
+          // potom prišiel o prepojenie na túto variantu produktu. (case-sensitive)
           "id": "u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo-5788",
 
           // Povinné aspoň jedno z týchto dvoch. `name` je human-readable názov farby, a `code` je 
@@ -64,7 +65,7 @@
           "code": "RAL 3028",
 
           // Povinné: RGB farba v HEX formáte. (case-insensitive)
-          "colorValue": "0xffe72512",
+          "hexColor": "#3B6D6A",
 
           // Voliteľné: link kde sa dá daný farebný variant kúpiť
           "buyLink": "https://www.yoursite.com/u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo-5788"
@@ -73,7 +74,7 @@
           "id": "u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo-5545",
           "name": "krvavá oranžová",
           "code": "RAL 2002",
-          "colorValue": "0xffc63927",
+          "hexColor": "#8B6D6B",
           "buyLink": "https://www.yoursite.com/u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo-5545"
         },
         // ...
