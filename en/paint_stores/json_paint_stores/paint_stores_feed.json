@@ -1,0 +1,44 @@
+[
+	{
+	  "id": "allPaintStores",
+	  "allPaintStores": [
+	    {
+	      // Mandatory
+	      "name": "AB - stav, s.r.o.",
+	      // Mandatory
+	      "latitude": 48.238139,
+	      // Mandatory
+	      "longitude": 18.1800574,
+
+	      // Optional
+	      "address": "Malý Cetín 157",
+	      // Optional
+	      "city": "Malý Cetín",
+	      // Optional
+	      "zipCode": "915 07",
+	      // Optional
+	      "phoneNumbers": [
+		"037/6581851"
+	      ],
+	      // Optional
+	      "email": "ab-stav@ab-stav.sk",
+	      // Optional
+	      "website": "www.ab-stav.sk"
+	    },
+	    {
+	      "name": "AB - Stavebniny s.r.o. (člen SOAS)",
+	      "address": "Lúky 521",
+	      "city": "Lazy pod Makytou - Lúky",
+	      "zipCode": "020 53",
+	      "latitude": 49.1895402,
+	      "longitude": 18.2290033,
+	      "phoneNumbers": [
+		"042/4680088"
+	      ],
+	      "email": "info@abstavebniny.sk",
+	      "website": "www.abstavebniny.sk"
+	    },
+
+	    // ...
+	}
+]
