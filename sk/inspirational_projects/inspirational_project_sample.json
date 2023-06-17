@@ -1,0 +1,30 @@
+// Každý inšpiračný projekt musí mať 3 súbory:
+//    rodinny_dom.jpg         // pôvodná fotka
+//    rodinny_dom-mask.png    // binárna maska, všetko čierne, a bielym vybrané to, čo chcete aby bolo na fotke vyfarbené
+//    rodinny_dom.json        // ktorý je podľa špecky tuto nižšie
+//
+//
+{
+    // Podľa tohto budeme neskôr grupovať inšpiračné projekty do kategórii (tu sú len id-čka)
+    "categories": [],
+    // Jednotlivé hierarchie produktov, ktoré sú povolené pri tomto inšpiračnom projekte. Ak je prázne, tak sú povolené všetky kategórie
+    "allowedProductCategories": [
+        {
+            "hierarchy": [
+                "Lazúry na drevo"
+            ]
+        }
+    ],
+    // Použité farby. Aktuálne je povolené mať len jednu farbu v inšpiračnom projekte
+    "usedColors": [
+        {
+            // Preferovaná hex farba ku ktorej sa potom appka posnaží nájsť najbližší odtieň daného produktu. Ak sa vynechá, tak sa použije farba z pôvodného obrázku.
+            "color": "#F434E9",
+            // Preferované produkty, ktoré budú vybraté pre tento inšpiračný produkt. Preferencia podľa poradia. Ak prázdne, tak sa vyberie prvý produkt z povolených produktov pre tento projekt.
+            "preferredProducts": [
+                "a3d5af9c353f825a966c031ede8a271e3ff2f531",
+                "f7bd57bea96630a8dda6dca6dc883210105c906d"
+            ]
+        }
+    ]
+}
