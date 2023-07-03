@@ -5,8 +5,10 @@
 //
 //
 {
-    // Podľa tohto budeme neskôr grupovať inšpiračné projekty do kategórii (tu sú len id-čka)
-    "categories": [],
+    // Podľa tohto grupujeme inšpiračné projekty do kategórii
+    "categories": [
+        "wood"
+    ],
     // Jednotlivé hierarchie produktov, ktoré sú povolené pri tomto inšpiračnom projekte. Ak je prázne, tak sú povolené všetky kategórie
     "allowedProductCategories": [
         {
