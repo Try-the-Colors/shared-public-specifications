@@ -19,7 +19,7 @@
     "usedColors": [
         {
             // Preferovaná hex farba ku ktorej sa potom appka posnaží nájsť najbližší odtieň daného produktu. Ak sa vynechá, tak sa použije farba z pôvodného obrázku.
-            "color": "#F434E9",
+            "hexColor": "#F434E9",
             // Preferované produkty, ktoré budú vybraté pre tento inšpiračný produkt. Preferencia podľa poradia. Ak prázdne, tak sa vyberie prvý produkt z povolených produktov pre tento projekt.
             "preferredProducts": [
                 "a3d5af9c353f825a966c031ede8a271e3ff2f531",
