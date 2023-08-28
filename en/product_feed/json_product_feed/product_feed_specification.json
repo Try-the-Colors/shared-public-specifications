@@ -1,28 +1,50 @@
 [
   {
+    // Example of data usage in the app:
+    //
     // Ukážka použitia dát v appke:
-    // https://github.com/Try-the-Colors/shared-public-specifications/tree/master/sk/product_feed/json_product_feed/usage_of_products_in_the_app
-    // https://github.com/Try-the-Colors/shared-public-specifications/tree/master/sk/product_feed/json_product_feed/usage_of_categories_in_the_app.png
+    // https://github.com/Try-the-Colors/shared-public-specifications/tree/master/en/product_feed/json_product_feed/usage_of_products_in_the_app.png
+    // https://github.com/Try-the-Colors/shared-public-specifications/tree/master/en/product_feed/json_product_feed/usage_of_categories_in_the_app.png
 
+    // Required: Product ID. Ideally, this ID shouldn't change too often. After saving the project, 
+    // the user would then lose the link to this product.
+    //
     // Povinné: Produkt ID. Ideálne keby sa toto ID-čko príliš často nemení. Užívateľ by po uložení svojho 
     // projektu potom prišiel o prepojenie na tento produkt. 
     "id": "u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo",
 
+    // Mandatory: short product name without the colored variant itself. Ideally also without categorical 
+    // information (e.g. metal color), without information about the packaging (e.g. 400ml), and ideally 
+    // no more than 30 characters in total.
+    //
     // Povinné: krátke meno produktu bez samotnej farbenej varianty. Ideálne aj bez kategorických
     // informácii (e.g. farba na kov), bez informácie o balení (e.g. 400ml), a ideálne celkovo nie 
     // viac ako 30 znakov.
     "name": "Chemolak e u 2081 chemopur",
 
-    // Voliteľné: Výrobca/značka daného produktu. Aktuálne v appke nezobrazujeme, ale do budúcna sa možno hodí.
-    "vendor": "Chemolak",
-
+    // Optional, recommended: short product description, ideally no more than 350 characters.
+    //
     // Voliteľné, odporúčané: krátky popis produktu, ideálne nie viac ako 350 znakov. 
     "description": "Vrchná, polyuretánová dvojzložková farba určená na nátery kovu - strechy, brány, ploty, nádrže alebo konštrukcie. Polyuretánový systém zložený z vrchného a základného náteru má veľmi dobrú odolnosť voči rôznym chemikáliám a ropným produktom. Je vhodné ju použiť všade tam, kde sa vyžaduje odolnosť náter a vyššia kvalita povrchovej úpravy. Spolu so základným náterom Chemopur G (obe v bielom odtieni) je schválená pre priamy styk s pitnou vodou a suchými potravinami. Okrem aplikácie na kov je vhodná aj pre použitie na drevo alebo minerálne povrchy.",
 
+    // Optional, recommended: Photo of the given product, ideally .png with transparent background and size 
+    // around 256x256 px.
+    //
     // Voliteľné, odporúčané: Fotko daného produktu, ideálne .png s transparentným pozadím a veľkosť
     // okolo 256x256 px.
     "imageUrl": "https://www.yoursite.com/u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo.png",
 
+    // Optional, recommended: This is how we categorize products. Hierarchy is the path
+    // by which the user can get to this product. The order of the categories within the hierarchy is therefore 
+    // important. A given product can exist in several hierarchies.
+    //
+    // In this particular case, the user can get to the product via `interior_paints > washable_paints`,
+    // but also via `metal_paints > washable_paints`.
+    //
+    // If some products in the given level lack a category, they will be hidden in the app by the category 'Other colors'.
+    //
+    // Only IDs (case-sensitive) are defined here. The text itself and the optional icon of the given category are defined in https://github.com/Try-the-Colors/shared-public-specifications/tree/master/sk/product_feed/json_product_feed/product_categories_specification.json
+    //
     // Voliteľné, odporúčané: Podľa tohto ukladáme produkty do kategórií. Hierarchia ja cesta pomocou
     // ktorej sa vie užívateľ dostať k tomuto produku. Poradie kategórii vnútri hierarchie je preto 
     // dôležité. Daný produkt sa môže vyskytovať vo viacerých hierarchiách. 
@@ -51,22 +73,36 @@
       // ...
     ],
 
+    // Mandatory
+    //
     // Povinné
     "colorVariants": [
         {
+          // Required: ID of the color variant itself, unique across all color variants.
+          // Ideally, this ID does not change too often. After saving the project, 
+          // the user would then lose the link to this product variant. (case sensitive)
+          //
           // Povinné: ID samotnej farebnej varianty, unikátne naprieč všetkými farebnými variantami. 
           // Ideálne keby sa toto ID-čko príliš často nemení. Užívateľ by po uložení svojho projektu
           // potom prišiel o prepojenie na túto variantu produktu. (case-sensitive)
           "id": "u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo-5788",
 
+          // At least one of these two is required. `name` is the human-readable name of the color, 
+          // and `code` is whatever code is used by the manufacturer of these shades.
+          //
           // Povinné aspoň jedno z týchto dvoch. `name` je human-readable názov farby, a `code` je 
           // akýkoľvek kód, čo používa daný výrobca týchto odtieňov.
+
           "name": "čistá červená",
           "code": "RAL 3028",
 
+          // Mandatory: RGB color in HEX format. (case-insensitive)
+          //
           // Povinné: RGB farba v HEX formáte. (case-insensitive)
           "hexColor": "#3B6D6A",
 
+          // Optional: link where the given color variant can be purchased
+          //
           // Voliteľné: link kde sa dá daný farebný variant kúpiť
           "buyLink": "https://www.yoursite.com/u-2081-chemopur-e-vrchna-polyuretanova-farba-na-kov-beton-drevo-5788"
         },
@@ -81,35 +117,75 @@
     ],
 
 
+    // --------------------------------------------------------------------------------------------
+    // The following section is highly optional. None of these data is currently used by the app, 
+    // but it may be useful in the future. 
+    // 
+    // Nasledujúca časť je vysoko voliteľná. Žiadne z týchto údajov aplikácia momentálne nepoužíva, 
+    // no v budúcnosti môžu byť užitočné.
+    // --------------------------------------------------------------------------------------------
+
+
+    // Optional: Manufacturer/brand of the given product.
+    //
+    // Voliteľné: Výrobca/značka daného produktu.
+    "vendor": "Chemolak",
+
+    // Optional: Approximate price of how much it costs to paint 1 m2 with this product. We don't 
+    // show it in the app yet, but it would be great if the user could see this for every product,
+    // and could choose a product according to its premiumness. It is a better indicator than 
+    // the price of the package itself. If you do not have this calculation, we can do it in 
+    // the app if you provide the necessary data.
+    //
     // Voliteľné: Orientačná cena koľko stojí vymaľovanie 1 m2 týmto produktom. Zatiaľ to v appke
     // nezobrazujeme, ale bolo by super ak by toto užívateľ pri každom produkte videl, a vedel si
     // tak vybrať produkt podľa jeho prémiovosti. Je to lepší ukazateľ ako samotná cena balenia.
-    //
     // Ak tento výpočet nemáte, tak vieme ho robiť v appke ak poskytnete potrebné dáta.
     "estimatedCostOfPaintingOneM2": 3.4,
 
-
+    // Optional: Price with VAT in € for individual packages of this product. It is quite possible 
+    // that individual color variants have different prices, but we ignore this fact, we just need 
+    // an average. It can be displayed in the product description, or the indicative price for painting
+    // m2 can be calculated from it.
+    //
     // Voliteľné: Cena s DPH v € za jednotlivé balenia tohto produktu. Je dosť možné že jednotlivé
     // farebné variany majú rozdielne ceny, ale tento fakt ignorujeme, stačí nám nejaký priemer. 
     // Môže sa to zobrazovať pri popise produktu, alebo počítať z toho orientačnú cenu za vymaľovanie m2.
     "prices": [20.19, 35.4],
 
+    
+    // Optional: Individual packages of this product in {packageUnit} units. It can be displayed 
+    // in the product description, or the indicative price for painting m2 can be calculated from it.
+    //
     // Voliteľné: Jednotlivé balenia tohto produktu v jednotkách {packageUnit}. 
     // Môže sa to zobrazovať pri popise produktu, alebo počítať z toho orientačnú cenu za vymaľovanie m2.
     "productPackages": [3.4, 6],
 
+    // Optional: The unit in which the packaging of this product is defined. Ideally 'L' or 'Kg', 
+    // but other units can be used. (case-insensitive)
+    //
     // Voliteľné: Jednotka v akej je definované balenie tohto produktu. Ideálne 'L', alebo 'Kg', ale môžu 
     // byť aj iné jednotky. (case-insensitive)
     "packageUnit": "L",
 
+    // Optional: Recommended number of coats. It can be displayed in the product description, or 
+    // the indicative price for painting m2 can be calculated from it.
+    //
     // Voliteľné: Odporúčaný počet náterov. Môže sa to zobrazovať pri popise produktu, alebo počítať
     // z toho orientačnú cenu za vymaľovanie m2.
     "recommendedNumberOfCoats": 2,
 
+    // Optional: Minimum indicative coverage in one layer in units of m2/{packageUnit}. It can be 
+    // displayed in the product description, or the indicative price for painting m2 can be calculated
+    // from it.
+    //
     // Voliteľné: Minimálna orientačná výdatnosť v jednej vrstve v jednotkách m2/{packageUnit}. 
     // Môže sa to zobrazovať pri popise produktu, alebo počítať z toho orientačnú cenu za vymaľovanie m2.
     "minimumYieldInOneLayer": 10,
 
+    // Optional: Maximum indicative yield in one layer in units of m2/{packageUnit}. It can be 
+    // displayed in the product description, or the indicative price for painting m2 can be calculated from it.
+    //
     // Voliteľné: Maximálna orientačná výdatnosť v jednej vrstve v jednotkách m2/{packageUnit}. 
     // Môže sa to zobrazovať pri popise produktu, alebo počítať z toho orientačnú cenu za vymaľovanie m2.
     "maximumYieldInOneLayer": 15,

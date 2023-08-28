@@ -3,11 +3,16 @@
 		"id": "allProductCategories",
 		"allProductCategories": [
 			{
+	// Mandoatory
         // Povinné
 				"id": "interior_paints",
+	// Optional, recommended: Category icon. The icons can be found here https://fonts.google.com/icons 
+	// You need to check that they are also available here, and take the ID from there: https://api.flutter.dev/flutter/material/Icons- class.html
+	//
         // Voliteľné, odporúčané: Ikonka kategórie. Ikonky sa dajú hľadať tuto https://fonts.google.com/icons 
         // Treba ale treba skontrolovať, že sú dostupné aj tu, a odtiaľ zobrať ID-čko: https://api.flutter.dev/flutter/material/Icons-class.html
 				"materialIcon": "format_paint_outlined", 
+	// Mandoatory
         // Povinné
         "localizedTexts": [
 					{
