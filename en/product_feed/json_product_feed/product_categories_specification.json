@@ -1,68 +1,67 @@
 [
-	{
-		"id": "allProductCategories",
-		"allProductCategories": [
-			{
-	// Mandoatory
+  {
+    "id": "allProductCategories",
+    "allProductCategories": [
+      {
+        // Mandatory
         // Povinné
-				"id": "interior_paints",
-	// Optional, recommended: Category icon. The icons can be found here https://fonts.google.com/icons 
-	// You need to check that they are also available here, and take the ID from there: https://api.flutter.dev/flutter/material/Icons- class.html
-	//
+        "id": "interior_paints",
+        // Optional, recommended: Category icon. The icons can be found here https://fonts.google.com/icons 
+        // You need to check that they are also available here, and take the ID from there: https://api.flutter.dev/flutter/material/Icons- class.html
+        //
         // Voliteľné, odporúčané: Ikonka kategórie. Ikonky sa dajú hľadať tuto https://fonts.google.com/icons 
         // Treba ale treba skontrolovať, že sú dostupné aj tu, a odtiaľ zobrať ID-čko: https://api.flutter.dev/flutter/material/Icons-class.html
-				"materialIcon": "format_paint_outlined", 
-	// Mandoatory
+        "materialIcon": "format_paint_outlined",
+        // Mandoatory
         // Povinné
         "localizedTexts": [
-					{
-						"lang": "sk",
-						"text": "Interiérové farby"
-					}
-				]
-			},
-			{
-				"id": "washable_paints",
-				"materialIcon": "water_drop_outlined",
-				"localizedTexts": [
-					{
-						"lang": "sk",
-						"text": "Umývateľné farby"
-					}
-				]
-			},
-			{
-				"id": "metal_paints",
-				"materialIcon": "fence_outlined",
-				"localizedTexts": [
-					{
-						"lang": "sk",
-						"text": "Farby na kov"
-					}
-				]
-			},
-			{
-				"id": "wood_paints",
-				"materialIcon": "cabin_outlined",
-				"localizedTexts": [
-					{
-						"lang": "sk",
-						"text": "Farby na drevo"
-					}
-				]
-			},
-			{
-				"id": "facade_paints",
-				"materialIcon": "gite_outlined",
-				"localizedTexts": [
-					{
-						"lang": "sk",
-						"text": "Farby na fasádu"
-					}
-				]
-			},
+          {
+            "lang": "sk",
+            "text": "Interiérové farby"
+          }
+        ]
+      },
+      {
+        "id": "washable_paints",
+        "materialIcon": "water_drop_outlined",
+        "localizedTexts": [
+          {
+            "lang": "sk",
+            "text": "Umývateľné farby"
+          }
+        ]
+      },
+      {
+        "id": "metal_paints",
+        "materialIcon": "fence_outlined",
+        "localizedTexts": [
+          {
+            "lang": "sk",
+            "text": "Farby na kov"
+          }
+        ]
+      },
+      {
+        "id": "wood_paints",
+        "materialIcon": "cabin_outlined",
+        "localizedTexts": [
+          {
+            "lang": "sk",
+            "text": "Farby na drevo"
+          }
+        ]
+      },
+      {
+        "id": "facade_paints",
+        "materialIcon": "gite_outlined",
+        "localizedTexts": [
+          {
+            "lang": "sk",
+            "text": "Farby na fasádu"
+          }
+        ]
+      },
       // ...
-		]
-	}
+    ]
+  }
 ]
-
